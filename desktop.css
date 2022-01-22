@@ -1,0 +1,47 @@
+.toggle-button {
+    position: absolute;
+    top: 30px;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;   
+}
+
+.menu-bar{
+    background-color: steelblue;
+    display: grid;
+    grid-template-columns: repeat(1,100%);      
+}
+
+.logo {   
+    display: block;
+    text-align: left;
+    color: white;
+    margin-left: 0px;
+}
+
+.logo h1{
+    display: block;
+}
+
+.nav-bar{   
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.nav-bar a{
+    display: none;
+
+}
+.nav-bar1 a{
+    display: block;
+    font-size: 1.1rem;
+}
+.nav-bar a:hover{
+   
+    background-color: darkorchid;
+}
